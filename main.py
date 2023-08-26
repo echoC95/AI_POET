@@ -1,5 +1,6 @@
-from dotenv import load_dotenv
-load_dotenv()
+# # for local use
+# from dotenv import load_dotenv
+# load_dotenv()
 from langchain.llms import OpenAI
 #we have the open_api_key in the .env file. We use the dotenv.
 # llm = OpenAI(openai_api_key="...")
@@ -21,7 +22,7 @@ chat_model = ChatOpenAI()
 
 
 # Streamlit 
-# Run "streamlit run main.py"
+# Run "streamlit run main.py" in terminal to initiate streamlit
 st.title('AI POET')
 theme = st.text_input('Enter the theme of the poet')
 
