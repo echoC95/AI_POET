@@ -22,7 +22,7 @@ chat_model = ChatOpenAI()
 
 
 # Streamlit 
-# Run "streamlit run main.py" in terminal to initiate streamlit
+# Run "streamlit run main.py" in terminal to initiate streamlit. For run locally, make sure load_dotenv() is not commented out
 st.title('AI POET')
 theme = st.text_input('Enter the theme of the poet')
 
